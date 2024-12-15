@@ -1,0 +1,56 @@
+.about-container {
+    width: 100%;
+    background-color: #1f1f2f;
+    color: #ffffff;
+    text-align: center;
+}
+
+.about-container h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.about-container p {
+    width: 100%;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.about-values {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.about-values h2 {
+    width: 100%;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.center {
+    background-image: url('images/crypto.png');
+    background-size: 60%;
+    /* Reduces the background image size to 60% of its original size */
+    background-repeat: no-repeat;
+    /* Prevents repeating of the background image */
+    background-position: center;
+    /* Centers the background image horizontally and vertically */
+    width: 100%;
+    height: 700px;
+    /* Keeps the same height */
+    padding-top: 20px;
+    /* Adds space between the image and the upper content */
+    margin-top: 80px;
+    /* Increased space above the container */
+    margin-bottom: 40px;
+    /* Adds space below the container */
+    display: flex;
+    justify-content: center;
+    /* Centers the content horizontally */
+    align-items: center;
+    /* Centers the content vertically */
+}
